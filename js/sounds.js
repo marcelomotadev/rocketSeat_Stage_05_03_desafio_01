@@ -5,7 +5,7 @@ export default function () {
   
   const rainAudio = new Audio('audio/Chuva.wav')
   const cafeAudio = new Audio('audio/Cafeteria.wav')
-  const indoorAudio = new Audio('audio/lareira.wav')
+  const indoorAudio = new Audio('audio/Lareira.wav')
   const forestAudio = new Audio('audio/Floresta.wav')
 
 
