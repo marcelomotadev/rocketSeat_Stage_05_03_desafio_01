@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.playing, .playing path {
+  background-color: #518bce !important;
+  fill: white;
+  transition: background-color 0.6s ease;
+}
+
+.playing:hover, .playing:hover path{
+  background-color: #e48888 !important;
+  fill: #323238 !important;
+  transition: background-color 2s ease;
+}
+
+
+body {
+  display: grid;
+  min-height: 100vh;
+}
+
+main {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  gap: 19.2rem;
+}
+
+#timer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+
+  color: #323238;
+}
+
+#controls {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#controls button{
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap:3.2rem;
+}
+
+.grid-item {
+  background-color: #E1E1E6;
+  padding: 2rem;
+  border-radius: 2.4rem;
+  padding: 4.8rem 4.5rem;
+
+  transition: background-color 0.6s ease, fill  0.3s ease;
+}
+
+.grid-item:hover path {
+  fill: white;
+}
+
+.grid-item:hover {
+  background-color: #02799D;
+}
