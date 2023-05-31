@@ -83,3 +83,12 @@ button:hover {
 .grid-item:hover {
   background-color: #02799D;
 }
+
+@media (max-width: 790px) {
+  main {
+    margin-block: 5rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+}
